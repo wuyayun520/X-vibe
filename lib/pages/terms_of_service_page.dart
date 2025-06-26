@@ -16,7 +16,7 @@ class TermsOfServicePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'X-vibe Terms of Service',
+              'Peach7 Terms of Service',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: const Color(0xFF24F8D5),
@@ -26,17 +26,17 @@ class TermsOfServicePage extends StatelessWidget {
             
             _buildSection(
               'Last updated: ${DateTime.now().year}',
-              'These Terms of Service govern your use of the X-vibe mobile application.',
+              'These Terms of Service govern your use of the Peach7 mobile application.',
             ),
             
             _buildSection(
               '1. Acceptance of Terms',
-              'By downloading, installing, or using the X-vibe app, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our app.',
+              'By downloading, installing, or using the Peach7 app, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our app.',
             ),
             
             _buildSection(
               '2. Description of Service',
-              'X-vibe is a mobile application that provides food-related services and content. We reserve the right to modify, suspend, or discontinue any aspect of the service at any time.',
+              'Peach7 is a mobile application that provides food-related services and content. We reserve the right to modify, suspend, or discontinue any aspect of the service at any time.',
             ),
             
             _buildSection(
@@ -56,12 +56,12 @@ class TermsOfServicePage extends StatelessWidget {
             
             _buildSection(
               '6. Intellectual Property',
-              'The service and its original content, features, and functionality are owned by X-vibe and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.',
+              'The service and its original content, features, and functionality are owned by Peach7 and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.',
             ),
             
             _buildSection(
               '7. Limitation of Liability',
-              'In no event shall X-vibe be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.',
+              'In no event shall Peach7 be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.',
             ),
             
             _buildSection(
@@ -71,7 +71,7 @@ class TermsOfServicePage extends StatelessWidget {
             
             _buildSection(
               '9. Contact Us',
-              'If you have any questions about these Terms of Service, please contact us at support@xvibe.com',
+              'If you have any questions about these Terms of Service, please contact us at support@Peach7.com',
             ),
             
             const SizedBox(height: 40),

@@ -38,7 +38,7 @@ class _Tab4PageState extends State<Tab4Page> {
   Future<void> _loadUserProfile() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      _userName = prefs.getString('user_name') ?? 'Your Name';
+      _userName = prefs.getString('user_name') ?? 'User001';
       _avatarBase64 = prefs.getString('user_avatar_base64');
     });
     _nameController.text = _userName;
@@ -104,7 +104,7 @@ class _Tab4PageState extends State<Tab4Page> {
         // 保存编辑
         _userName = _nameController.text.trim();
         if (_userName.isEmpty) {
-          _userName = 'Your Name';
+          _userName = 'User001';
           _nameController.text = _userName;
         }
         _saveUserProfile();

@@ -11,7 +11,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>X-vibe</string>
+	<string>Peach7</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -19,7 +19,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>x-vibe</string>
+	<string>peach7</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -36,15 +36,15 @@
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>X-vibe needs camera access to take profile pictures</string>
+	<string>Peach7 needs camera access to take profile pictures</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>X-vibe needs to access the microphone to record audio information for users to have voice chats or video calls.</string>
+	<string>Peach7 needs to access the microphone to record audio information for users to have voice chats or video calls.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>X-vibe requires access to add new photos to your library, enabling you to save photos directly from the app.</string>
+	<string>Peach7 requires access to add new photos to your library, enabling you to save photos directly from the app.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>X-vibe necessary to access the album to select and save the avatar</string>
+	<string>Peach7 necessary to access the album to select and save the avatar</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>X-vibe track your activity across other companies' apps and websites to provide you with a personalized experience</string>
+	<string>Peach7 track your activity across other companies' apps and websites to provide you with a personalized experience</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>

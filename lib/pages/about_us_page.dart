@@ -85,12 +85,12 @@ class AboutUsPage extends StatelessWidget {
                   child: Column(
                     children: [
                       // 应用名称
-                      const Text(
-                        'X-Vibe',
+                      Text(
+                        'Peach7',
                         style: TextStyle(
                           fontSize: 32,
                           fontWeight: FontWeight.bold,
-                          color: Color(0xFF24F8D5),
+                          color: Colors.white,
                         ),
                       ),
                       
@@ -221,7 +221,7 @@ class AboutUsPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'support@xvibe.com',
+                        'support@Peach7.com',
                         style: TextStyle(
                           fontSize: 14,
                           color: Colors.white.withOpacity(0.7),

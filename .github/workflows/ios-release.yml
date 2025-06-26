@@ -83,7 +83,7 @@ jobs:
 
       - name: Upload to App Store using altool
         env:
-          IPA_PATH: "build/ios/ipa/x-vibe.ipa"
+          IPA_PATH: "build/ios/ipa/peach7.ipa"
           APPLE_ID: "liangfeng@jcchennuo.shop"
           APP_SPECIFIC_PASSWORD: "rfel-fgai-gfgo-npst"
         run: |

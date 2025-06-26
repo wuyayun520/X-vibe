@@ -16,7 +16,7 @@ class PrivacyPolicyPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'X-vibe Privacy Policy',
+              'Peach7 Privacy Policy',
               style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: const Color(0xFF24F8D5),
@@ -26,7 +26,7 @@ class PrivacyPolicyPage extends StatelessWidget {
             
             _buildSection(
               'Last updated: ${DateTime.now().year}',
-              'This Privacy Policy describes how X-vibe collects, uses, and protects your information when you use our mobile application.',
+              'This Privacy Policy describes how Peach7 collects, uses, and protects your information when you use our mobile application.',
             ),
             
             _buildSection(
@@ -76,7 +76,7 @@ class PrivacyPolicyPage extends StatelessWidget {
             
             _buildSection(
               '10. Contact Us',
-              'If you have any questions about this Privacy Policy, please contact us at:\n• Email: privacy@xvibe.com\n• Address: X-vibe Privacy Team',
+              'If you have any questions about this Privacy Policy, please contact us at:\n• Email: privacy@peach7.com\n• Address: Peach7 Privacy Team',
             ),
             
             const SizedBox(height: 40),
